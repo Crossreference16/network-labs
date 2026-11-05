@@ -1,6 +1,6 @@
 # Cisco CCNA 200-301 Lab Portfolio
 
-Hands-on Cisco Packet Tracer labs I'm completing while studying for the CCNA 200-301 (v2.0) exam. Each lab has its saved Packet Tracer file (`.pkt`), a screenshot of the finished topology, and a short summary of what I configured and why it matters in a real network.
+Hands-on Cisco Packet Tracer labs I'm completing while studying for the CCNA 200-301 (v2.0) exam. Every completed lab has its own page with the saved Packet Tracer file, a screenshot, what I configured, and why it matters in a real network.
 
 I'm an IT support engineer with 21 months of 2nd line experience on a security-cleared enterprise account (VMware Horizon VDI, Active Directory, ServiceNow). This repository documents the networking side of my skill set as I build it.
 
@@ -11,85 +11,115 @@ I'm an IT support engineer with 21 months of 2nd line experience on a security-c
 | Course | Jeremy's IT Lab, CCNA 200-301 complete course |
 | Tool | Cisco Packet Tracer 9.0.1 |
 | Exam target | CCNA 200-301 (v2.0), March 2027 |
-| Labs completed | 4 (Days 1 to 4) |
+| Progress | 4 of 48 labs completed |
 | Last updated | 5 November 2026 |
 
-## Skills so far
+## Progress by area
 
-- Identifying network devices and their roles: routers, switches, firewalls, endpoints and servers
-- Choosing the right cabling: copper straight-through and crossover, and fibre for long distances
-- Tracing traffic through the OSI and TCP/IP models in Packet Tracer simulation mode
-- Securing Cisco IOS devices: hostnames, enable secrets, password encryption, saving configurations
+| Area | Covers | Completed |
+|---|---|---|
+| [Fundamentals and device basics](#fundamentals-and-device-basics) | Cabling, the OSI model, IOS basics, IPv4 addressing and subnetting | 4 of 9 |
+| [Switching and wireless](#switching-and-wireless) | VLANs, trunking, spanning tree, EtherChannel, CDP/LLDP, wireless | 0 of 12 |
+| [Routing](#routing) | Static routes, EIGRP, OSPF, HSRP, GRE tunnels | 0 of 9 |
+| [IPv6](#ipv6) | IPv6 addressing and static routing | 0 of 3 |
+| [IP services](#ip-services) | NTP, DNS, DHCP, SNMP, Syslog, SSH, FTP/TFTP, NAT, QoS | 0 of 10 |
+| [Security](#security) | ACLs, port security, DHCP snooping, dynamic ARP inspection | 0 of 5 |
+| **Total** | | **4 of 48** |
 
-## Labs
+## Featured labs
 
-| Day | Lab | Topic | File |
-|---|---|---|---|
-| 01 | [Packet Tracer Introduction](#day-01-packet-tracer-introduction) | Network devices and topology | [.pkt](Day%2001%20Lab%20-%20Packet%20Tracer%20Introduction.pkt) |
-| 02 | [Connecting Devices](#day-02-connecting-devices) | Cabling and physical layer | [.pkt](Day%2002%20Lab%20-%20Connecting%20Devices.pkt) |
-| 03 | [OSI Model](#day-03-osi-model) | Traffic analysis by layer | [.pkt](Day%2003%20Lab%20-%20OSI%20Model.pkt) |
-| 04 | [Basic Device Security](#day-04-basic-device-security) | Cisco IOS password security | [.pkt](Day%2004%20Lab%20-%20Basic%20Device%20Security.pkt) |
+My strongest labs so far. These are replaced as I complete more advanced work.
 
----
+| [Day 04: Basic Device Security](labs/day-04-basic-device-security.md) | [Day 02: Connecting Devices](labs/day-02-connecting-devices.md) |
+|---|---|
+| <a href="labs/day-04-basic-device-security.md"><img src="labs/day-04-basic-device-security.png" alt="Day 04 topology" width="400"></a> | <a href="labs/day-02-connecting-devices.md"><img src="labs/day-02-connecting-devices.png" alt="Day 02 topology" width="400"></a> |
+| Hardened a Cisco router and switch from the command line: hostnames, hashed enable secret, password encryption, saved configuration. | Cabled 4 routers and 8 switches with the correct copper and fibre for each link and distance, without relying on Auto MDI-X. |
 
-### Day 01: Packet Tracer Introduction
+## All labs
 
-![Day 01 topology: two branch sites connected through the internet](images/day-01-packet-tracer-introduction.png)
+### Fundamentals and device basics
 
-**What I built:** a two-site network (New York and Tokyo branches) linked through an internet router. Each site has a Cisco 2911 router, an ASA 5505 firewall and a Cisco 2960 switch, with PCs at one site, servers at the other, and an attacker host on the internet.
+| Day | Lab | Status |
+|---|---|---|
+| 01 | [Packet Tracer Introduction](labs/day-01-packet-tracer-introduction.md) | ✅ Done |
+| 02 | [Connecting Devices](labs/day-02-connecting-devices.md) | ✅ Done |
+| 03 | [OSI Model](labs/day-03-osi-model.md) | ✅ Done |
+| 04 | [Basic Device Security](labs/day-04-basic-device-security.md) | ✅ Done |
+| 06 | Ethernet LAN Switching | Planned |
+| 08 | IPv4 Addresses | Planned |
+| 09 | Interface Configuration | Planned |
+| 12 | Life of a Packet | Planned |
+| 15 | VLSM | Planned |
 
-**Skills shown**
-- Recognising each device's job: the switch connects local devices, the router links networks, the firewall controls traffic at the edge.
-- Building a multi-site topology from a reference design.
+### Switching and wireless
 
-**Why it matters:** knowing where each device sits in the path is the starting point for any connectivity ticket, such as working out whether a fault is at the user's switch, the site router or the firewall.
+| Day | Lab | Status |
+|---|---|---|
+| 16 | VLANs (Part 1) | Planned |
+| 17 | VLANs (Part 2) | Planned |
+| 18 | Multilayer Switching | Planned |
+| 19 | DTP & VTP | Planned |
+| 20 | Analyzing STP | Planned |
+| 21 | Configuring Spanning Tree | Planned |
+| 22 | Rapid STP | Planned |
+| 23 | EtherChannel | Planned |
+| 36 | CDP & LLDP | Planned |
+| 46 | Voice VLANs | Planned |
+| 52 | STP & HSRP Synchronization | Planned |
+| 58 | Wireless LANs | Planned |
 
----
+### Routing
 
-### Day 02: Connecting Devices
+| Day | Lab | Status |
+|---|---|---|
+| 11 | Configuring Static Routes | Planned |
+| 11 | Troubleshooting Static Routes | Planned |
+| 24 | Floating Static Routes | Planned |
+| 25 | EIGRP Configuration | Planned |
+| 26 | OSPF (Part 1) | Planned |
+| 27 | OSPF (Part 2) | Planned |
+| 28 | OSPF (Part 3) | Planned |
+| 29 | HSRP Configuration | Planned |
+| 53 | GRE Tunnels | Planned |
 
-![Day 02 topology: routers, switches and end devices connected with copper and fibre](images/day-02-connecting-devices.png)
+### IPv6
 
-**What I built:** connected 4 routers, 8 switches, PCs and a server using the correct cable for each link, with Auto MDI-X treated as unavailable so every cable choice had to be right.
+| Day | Lab | Status |
+|---|---|---|
+| 31 | IPv6 Configuration (Part 1) | Planned |
+| 32 | IPv6 Configuration (Part 2) | Planned |
+| 33 | IPv6 Static Routes | Planned |
 
-**Skills shown**
-- Straight-through copper between unlike devices (router to switch, switch to PC) and crossover copper between like devices (switch to switch, router to router).
-- Fibre for runs beyond copper's 100 metre limit (the 250 metre and 3 kilometre links), and choosing between single-mode and multimode by distance.
+### IP services
 
-**Why it matters:** wrong cabling is one of the most common causes of a "link down" fault. This is the physical-layer knowledge used for patching, comms room work and data centre cabling.
+| Day | Lab | Status |
+|---|---|---|
+| 37 | NTP | Planned |
+| 38 | DNS | Planned |
+| 39 | DHCP | Planned |
+| 40 | SNMP | Planned |
+| 41 | Syslog | Planned |
+| 42 | SSH | Planned |
+| 43 | FTP & TFTP | Planned |
+| 44 | Static NAT | Planned |
+| 45 | Dynamic NAT | Planned |
+| 47 | QoS | Planned |
 
----
+### Security
 
-### Day 03: OSI Model
+| Day | Lab | Status |
+|---|---|---|
+| 34 | Standard ACLs | Planned |
+| 35 | Extended ACLs | Planned |
+| 49 | Port Security | Planned |
+| 50 | DHCP Snooping | Planned |
+| 51 | Dynamic ARP Inspection | Planned |
 
-![Day 03 topology: server, two switches and two routers across two subnets](images/day-03-osi-model.png)
+### Capstone
 
-**What I built:** a network with two subnets (192.168.1.0/24 and 10.0.0.0/24) joined by two routers. I used simulation mode to step through traffic packet by packet, and released and renewed PC1's IP address to generate DHCP traffic.
-
-**Skills shown**
-- Reading a packet layer by layer, from Ethernet frames (Layer 2) through IP (Layer 3) to the application data (Layer 7).
-- Following a DHCP exchange: how a PC asks for and receives its IP address.
-
-**Why it matters:** "no IP address" and "can't reach the server" tickets are solved by finding which layer is failing. This is the method I use to troubleshoot logically rather than guess.
-
----
-
-### Day 04: Basic Device Security
-
-![Day 04 topology: router, switch and PCs used for IOS security configuration](images/day-04-basic-device-security.png)
-
-**What I configured (on router R1 and switch SW1, from the command line):**
-- Set hostnames with `hostname`.
-- Set an enable password, then tested access from user EXEC mode.
-- Encrypted all passwords with `service password-encryption`, and checked the running configuration before and after.
-- Replaced it with a hashed `enable secret` and confirmed the secret takes priority over the enable password.
-- Saved the running configuration to the startup configuration so it survives a reload.
-
-**Skills shown:** Cisco IOS command line, the difference between weak (type 7) password encryption and a hashed enable secret, and running versus startup configuration.
-
-**Why it matters:** this is the first hardening applied to any new Cisco device. Forgetting to save the configuration is a classic cause of devices losing their settings after a power cut.
-
----
+| Lab | Status |
+|---|---|
+| CCNA Mega Lab: a full network built end to end from everything above | Planned |
 
 ## About
 
