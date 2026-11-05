@@ -1,4 +1,3 @@
-# network-labs
 # Cisco CCNA 200-301 Lab Portfolio
 
 This repository contains my hands-on network routing and switching lab topologies, built as part of my preparation for the Cisco CCNA 200-301 (v2.0) certification.
