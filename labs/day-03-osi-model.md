@@ -1,4 +1,4 @@
-# Day 03: OSI Model
+# OSI Model
 
 [Back to all labs](../README.md)
 
