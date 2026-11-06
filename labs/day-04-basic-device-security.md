@@ -1,4 +1,4 @@
-# Day 04: Basic Device Security
+# Basic Device Security
 
 [Back to all labs](../README.md)
 
