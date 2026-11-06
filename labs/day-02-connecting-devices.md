@@ -1,4 +1,4 @@
-# Day 02: Connecting Devices
+# Connecting Devices
 
 [Back to all labs](../README.md)
 
