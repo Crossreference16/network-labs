@@ -1,4 +1,4 @@
-# Day 06: Ethernet LAN Switching
+# Ethernet LAN Switching
 
 [Back to all labs](../README.md)
 
