@@ -30,12 +30,16 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 
 My strongest labs so far. These are replaced as I complete more advanced work.
 
-| [Day 06: Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) | [Day 04: Basic Device Security](labs/day-04-basic-device-security.md) |
+**Click a lab's title or picture to open the full lab:** every screenshot, the commands used and an explanation of each step.
+
+| [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) | [Basic Device Security](labs/day-04-basic-device-security.md) |
 |---|---|
-| <a href="labs/day-06-ethernet-lan-switching.md"><img src="labs/day-06-ethernet-lan-switching.png" alt="Day 06 two-switch LAN topology" width="400"></a> | <a href="labs/day-04-basic-device-security.md"><img src="labs/day-04-basic-device-security.png" alt="Day 04 topology" width="400"></a> |
+| <a href="labs/day-06-ethernet-lan-switching.md"><img src="labs/day-06-ethernet-lan-switching.png" alt="Two-switch LAN topology" width="400"></a> | <a href="labs/day-04-basic-device-security.md"><img src="labs/day-04-basic-device-security.png" alt="Router, switch and PCs topology" width="400"></a> |
 | Traced ARP and ping frame by frame across two switches in simulation mode, then read and cleared the MAC address tables to map every PC to its switch port. | Hardened a Cisco router and switch from the command line: hostnames, hashed enable secret, password encryption, saved configuration. |
 
 ## All labs
+
+**Click any lab name to open the full lab.** Labs marked Planned are still to come.
 
 ### Fundamentals and device basics
 
