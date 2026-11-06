@@ -2,7 +2,7 @@
 
 Hands-on Cisco Packet Tracer labs I'm completing while studying for the CCNA 200-301 (v1.1) exam. Every completed lab has its own page with the saved Packet Tracer file, a screenshot, what I configured, and why it matters in a real network.
 
-I'm an IT support engineer with 20 months of 2nd line experience on a security-cleared enterprise account (VMware Horizon VDI, Active Directory, ServiceNow). This repository documents the networking side of my skill set as I build it.
+I have 20 months experience on a security-cleared enterprise account (VMware Horizon VDI, Active Directory, ServiceNow). This repository documents the networking side of my skill set as I build it.
 
 ## Status
 
@@ -125,6 +125,3 @@ My strongest labs so far. These are replaced as I complete more advanced work.
 |---|---|
 | CCNA Mega Lab: a full network built end to end from everything above | Planned |
 
-## About
-
-Khalil Hersi, IT support engineer based in London.
