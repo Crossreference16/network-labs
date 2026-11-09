@@ -18,7 +18,7 @@ I have 20 months experience on a security-cleared enterprise account (VMware Hor
 
 | Area | Covers | Completed |
 |---|---|---|
-| [Fundamentals and device basics](#fundamentals-and-device-basics) | Cabling, the OSI model, IOS basics, IPv4 addressing and subnetting | 7 of 9 |
+| [Core networking and Cisco IOS](#core-networking-and-cisco-ios) | Cabling, the OSI model, IOS basics, IPv4 addressing and subnetting | 7 of 9 |
 | [Switching and wireless](#switching-and-wireless) | VLANs, trunking, spanning tree, EtherChannel, CDP/LLDP, wireless | 0 of 12 |
 | [Routing](#routing) | Static routes, EIGRP, OSPF, HSRP, GRE tunnels | 0 of 9 |
 | [IPv6](#ipv6) | IPv6 addressing and static routing | 0 of 3 |
@@ -41,7 +41,7 @@ My strongest labs so far. These are replaced as I complete more advanced work.
 
 **Click any lab name to open the full lab.** Labs marked Planned are still to come.
 
-### Fundamentals and device basics
+### Core networking and Cisco IOS
 
 | Day | Lab | Status |
 |---|---|---|
