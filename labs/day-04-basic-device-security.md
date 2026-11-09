@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Area | Fundamentals and device basics |
+| Area | Core networking and Cisco IOS |
 | Packet Tracer file | [day-04-basic-device-security.pkt](day-04-basic-device-security.pkt) |
 | Status | Completed |
 
