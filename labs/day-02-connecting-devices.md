@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Area | Fundamentals and device basics |
+| Area | Core networking and Cisco IOS |
 | Packet Tracer file | [day-02-connecting-devices.pkt](day-02-connecting-devices.pkt) |
 | Status | Completed |
 
