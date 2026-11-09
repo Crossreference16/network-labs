@@ -14,6 +14,25 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 | Progress | 7 of 48 labs completed |
 | Last updated | 9 November 2026 |
 
+## Skills so far
+
+✅ = proven in a lab on this page · 📘 = studied in the course, lab still to come
+
+| Skill | What I can do | Evidence |
+|---|---|---|
+| Network devices and topology | Explain what routers, switches, firewalls, endpoints and servers each do, and build a multi-site topology from a design | ✅ [Packet Tracer Introduction](labs/day-01-packet-tracer-introduction.md) |
+| Cabling and interfaces | Choose straight-through, crossover, multimode or single-mode fibre by device type and distance; explain Auto MDI-X | ✅ [Connecting Devices](labs/day-02-connecting-devices.md) |
+| OSI and TCP/IP models | Explain encapsulation and the PDU at each layer; read real packets layer by layer in simulation mode | ✅ [OSI Model](labs/day-03-osi-model.md) |
+| Cisco IOS command line | Move between user EXEC, privileged EXEC and configuration modes; configure, verify and save with `copy running-config startup-config` | ✅ [Basic Device Security](labs/day-04-basic-device-security.md), [IPv4 Addresses](labs/day-08-ipv4-addresses.md) |
+| Device hardening | Use `enable secret` over `enable password`; explain type 7 vs type 5; shut down and label unused ports | ✅ [Basic Device Security](labs/day-04-basic-device-security.md), [Interface Configuration](labs/day-09-interface-configuration.md) |
+| Ethernet LAN switching | Explain the Ethernet frame fields (preamble, SFD, MAC addresses, type, FCS), MAC learning, flooding and aging; read and clear `show mac address-table` | ✅ [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) |
+| ARP, ICMP and DHCP | Trace ARP requests and replies, ping (echo request and reply) and the DHCP Discover, Offer, Request, Acknowledge exchange packet by packet | ✅ [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md), [OSI Model](labs/day-03-osi-model.md) |
+| IPv4 addressing | Convert binary; identify class A, B and C networks; work out network, broadcast, first and last usable addresses and max hosts (2ⁿ − 2); address router interfaces and hosts | ✅ [IPv4 Addresses](labs/day-08-ipv4-addresses.md) |
+| Switch interfaces | Set speed and duplex, use `interface range`, add descriptions, check with `show interfaces status`; explain duplex mismatches, collision domains and the runt, giant and CRC error counters | ✅ [Interface Configuration](labs/day-09-interface-configuration.md) |
+| IPv4 header | Explain the IPv4 header fields, including TTL, the protocol field and fragmentation | 📘 Course (no separate lab for this topic) |
+| Routing fundamentals | Read `show ip route`; explain connected (C) and local (L) routes and longest prefix match | 📘 Course, lab next: Configuring Static Routes |
+| Static and default routes | Configure `ip route` with a next hop or exit interface, and a default route with `ip route 0.0.0.0 0.0.0.0` | 📘 Course, lab next: Configuring Static Routes |
+
 ## Progress by area
 
 | Area | Covers | Completed |
