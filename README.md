@@ -11,20 +11,20 @@ I have 20 months experience on a security-cleared enterprise account (VMware Hor
 | Course | Jeremy's IT Lab, CCNA 200-301 complete course |
 | Tool | Cisco Packet Tracer 9.0.1 |
 | Exam target | CCNA 200-301 (v1.1), before the v2.0 changeover on 3 February 2027 |
-| Progress | 5 of 48 labs completed |
-| Last updated | 6 November 2026 |
+| Progress | 7 of 48 labs completed |
+| Last updated | 9 November 2026 |
 
 ## Progress by area
 
 | Area | Covers | Completed |
 |---|---|---|
-| [Fundamentals and device basics](#fundamentals-and-device-basics) | Cabling, the OSI model, IOS basics, IPv4 addressing and subnetting | 5 of 9 |
+| [Fundamentals and device basics](#fundamentals-and-device-basics) | Cabling, the OSI model, IOS basics, IPv4 addressing and subnetting | 7 of 9 |
 | [Switching and wireless](#switching-and-wireless) | VLANs, trunking, spanning tree, EtherChannel, CDP/LLDP, wireless | 0 of 12 |
 | [Routing](#routing) | Static routes, EIGRP, OSPF, HSRP, GRE tunnels | 0 of 9 |
 | [IPv6](#ipv6) | IPv6 addressing and static routing | 0 of 3 |
 | [IP services](#ip-services) | NTP, DNS, DHCP, SNMP, Syslog, SSH, FTP/TFTP, NAT, QoS | 0 of 10 |
 | [Security](#security) | ACLs, port security, DHCP snooping, dynamic ARP inspection | 0 of 5 |
-| **Total** | | **5 of 48** |
+| **Total** | | **7 of 48** |
 
 ## Featured labs
 
@@ -32,10 +32,10 @@ My strongest labs so far. These are replaced as I complete more advanced work.
 
 **Click a lab's title or picture to open the full lab:** every screenshot, the commands used and an explanation of each step.
 
-| [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) | [Basic Device Security](labs/day-04-basic-device-security.md) |
+| [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) | [Interface Configuration](labs/day-09-interface-configuration.md) |
 |---|---|
-| <a href="labs/day-06-ethernet-lan-switching.md"><img src="labs/day-06-ethernet-lan-switching.png" alt="Two-switch LAN topology" width="400"></a> | <a href="labs/day-04-basic-device-security.md"><img src="labs/day-04-basic-device-security.png" alt="Router, switch and PCs topology" width="400"></a> |
-| Traced ARP and ping frame by frame across two switches in simulation mode, then read and cleared the MAC address tables to map every PC to its switch port. | Hardened a Cisco router and switch from the command line: hostnames, hashed enable secret, password encryption, saved configuration. |
+| <a href="labs/day-06-ethernet-lan-switching.md"><img src="labs/day-06-ethernet-lan-switching.png" alt="Two-switch LAN topology" width="400"></a> | <a href="labs/day-09-interface-configuration.md"><img src="labs/day-09-interface-configuration.png" alt="Router and two switches on 172.16.0.0/16" width="400"></a> |
+| Traced ARP and ping frame by frame across two switches in simulation mode, then read and cleared the MAC address tables to map every PC to its switch port. | Set speed and duplex on the links between network devices, labelled every port and shut down every unused one, then checked it all with `show interfaces status`. |
 
 ## All labs
 
@@ -50,8 +50,8 @@ My strongest labs so far. These are replaced as I complete more advanced work.
 | 03 | [OSI Model](labs/day-03-osi-model.md) | ✅ Done |
 | 04 | [Basic Device Security](labs/day-04-basic-device-security.md) | ✅ Done |
 | 06 | [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) | ✅ Done |
-| 08 | IPv4 Addresses | Planned |
-| 09 | Interface Configuration | Planned |
+| 08 | [IPv4 Addresses](labs/day-08-ipv4-addresses.md) | ✅ Done |
+| 09 | [Interface Configuration](labs/day-09-interface-configuration.md) | ✅ Done |
 | 12 | Life of a Packet | Planned |
 | 15 | VLSM | Planned |
 
