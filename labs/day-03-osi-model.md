@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Area | Fundamentals and device basics |
+| Area | Core networking and Cisco IOS |
 | Packet Tracer file | [day-03-osi-model.pkt](day-03-osi-model.pkt) |
 | Status | Completed |
 
