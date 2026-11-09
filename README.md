@@ -16,6 +16,9 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 
 ## Skills so far
 
+<details>
+<summary><b>9 skills proven in labs, 3 studied in the course</b> (click to expand)</summary>
+
 ✅ = proven in a lab on this page · 📘 = studied in the course, lab still to come
 
 | Skill | What I can do | Evidence |
@@ -32,6 +35,8 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 | IPv4 header | Explain the IPv4 header fields, including TTL, the protocol field and fragmentation | 📘 Course (no separate lab for this topic) |
 | Routing fundamentals | Read `show ip route`; explain connected (C) and local (L) routes and longest prefix match | 📘 Course, lab next: Configuring Static Routes |
 | Static and default routes | Configure `ip route` with a next hop or exit interface, and a default route with `ip route 0.0.0.0 0.0.0.0` | 📘 Course, lab next: Configuring Static Routes |
+
+</details>
 
 ## Progress by area
 
