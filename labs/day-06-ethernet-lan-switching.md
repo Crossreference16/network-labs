@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Area | Fundamentals and device basics |
+| Area | Core networking and Cisco IOS |
 | Packet Tracer file | [day-06-ethernet-lan-switching.pkt](day-06-ethernet-lan-switching.pkt) |
 | Status | Completed |
 | Key topics | MAC address learning, flooding, ARP, ICMP, `show mac address-table` |
