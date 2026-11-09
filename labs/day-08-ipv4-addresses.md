@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Area | Fundamentals and device basics |
+| Area | Core networking and Cisco IOS |
 | Packet Tracer file | [day-08-ipv4-addresses.pkt](day-08-ipv4-addresses.pkt) |
 | Status | Completed |
 | Key topics | Class A, B and C networks, router interface addressing, `show ip interface brief`, default gateways |
