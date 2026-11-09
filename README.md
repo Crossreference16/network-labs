@@ -17,7 +17,7 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 ## Skills so far
 
 <details>
-<summary><b>9 skills proven in labs, 3 studied in the course</b> (click to expand)</summary>
+<summary><b>👉 Click here to open the skills table</b> (9 skills proven in labs, 3 studied in the course)</summary>
 
 ✅ = proven in a lab on this page · 📘 = studied in the course, lab still to come
 
