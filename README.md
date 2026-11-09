@@ -2,7 +2,7 @@
 
 Hands-on Cisco Packet Tracer labs I'm completing while studying for the CCNA 200-301 (v1.1) exam. Every completed lab has its own page with the saved Packet Tracer file, a screenshot, what I configured, and why it matters in a real network.
 
-I have 20 months experience on a security-cleared enterprise account (VMware Horizon VDI, Active Directory, ServiceNow). This repository documents the networking side of my skill set as I build it.
+I'm an IT support engineer with 20 months of 2nd line experience on a security-cleared enterprise account (VMware Horizon VDI, Active Directory, ServiceNow). This repository documents the networking side of my skill set as I build it.
 
 ## Status
 
@@ -10,7 +10,7 @@ I have 20 months experience on a security-cleared enterprise account (VMware Hor
 |---|---|
 | Course | Jeremy's IT Lab, CCNA 200-301 complete course |
 | Tool | Cisco Packet Tracer 9.0.1 |
-| Exam target | CCNA 200-301 (v1.1), before the v2.0 changeover on 3 February 2027 |
+| Exam target | CCNA 200-301 (v1.1), 19 January 2027 |
 | Progress | 7 of 48 labs completed |
 | Last updated | 9 November 2026 |
 
