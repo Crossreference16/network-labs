@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Area | Fundamentals and device basics |
+| Area | Core networking and Cisco IOS |
 | Packet Tracer file | [day-01-packet-tracer-introduction.pkt](day-01-packet-tracer-introduction.pkt) |
 | Status | Completed |
 
