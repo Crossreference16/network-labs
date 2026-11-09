@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Area | Fundamentals and device basics |
+| Area | Core networking and Cisco IOS |
 | Packet Tracer file | [day-09-interface-configuration.pkt](day-09-interface-configuration.pkt) |
 | Status | Completed |
 | Key topics | Speed and duplex, interface descriptions, shutting down unused ports, `show interfaces status` |
