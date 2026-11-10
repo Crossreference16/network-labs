@@ -11,13 +11,13 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 | Course | Jeremy's IT Lab, CCNA 200-301 complete course |
 | Tool | Cisco Packet Tracer 9.0.1 |
 | Exam target | CCNA 200-301 (v1.1), 19 January 2027 |
-| Progress | 7 of 48 labs completed |
-| Last updated | 9 November 2026 |
+| Progress | 8 of 48 labs completed |
+| Last updated | 10 November 2026 |
 
 ## Skills so far
 
 <details>
-<summary><b>👉 Click here to open the skills table</b> (9 skills proven in labs, 3 studied in the course)</summary>
+<summary><b>👉 Click here to open the skills table</b> (11 skills proven in labs, 1 studied in the course)</summary>
 
 ✅ = proven in a lab on this page · 📘 = studied in the course, lab still to come
 
@@ -33,8 +33,8 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 | IPv4 addressing | Convert binary; identify class A, B and C networks; work out network, broadcast, first and last usable addresses and max hosts (2ⁿ − 2); address router interfaces and hosts | ✅ [IPv4 Addresses](labs/day-08-ipv4-addresses.md) |
 | Switch interfaces | Set speed and duplex, use `interface range`, add descriptions, check with `show interfaces status`; explain duplex mismatches, collision domains and the runt, giant and CRC error counters | ✅ [Interface Configuration](labs/day-09-interface-configuration.md) |
 | IPv4 header | Explain the IPv4 header fields, including TTL, the protocol field and fragmentation | 📘 Course (no separate lab for this topic) |
-| Routing fundamentals | Read `show ip route`; explain connected (C) and local (L) routes and longest prefix match | 📘 Course, lab next: Configuring Static Routes |
-| Static and default routes | Configure `ip route` with a next hop or exit interface, and a default route with `ip route 0.0.0.0 0.0.0.0` | 📘 Course, lab next: Configuring Static Routes |
+| Routing fundamentals | Read `show ip route`; explain connected (C) and local (L) routes and longest prefix match | ✅ [Configuring Static Routes](labs/day-11-configuring-static-routes.md) |
+| Static and default routes | Configure static routes with `ip route` in both directions across a multi-router path; explain exit-interface and default routes (`ip route 0.0.0.0 0.0.0.0`) | ✅ [Configuring Static Routes](labs/day-11-configuring-static-routes.md) |
 
 </details>
 
@@ -44,11 +44,11 @@ I'm an IT support engineer with 20 months of 2nd line experience on a security-c
 |---|---|---|
 | [Core networking and Cisco IOS](#core-networking-and-cisco-ios) | Cabling, the OSI model, IOS basics, IPv4 addressing and subnetting | 7 of 9 |
 | [Switching and wireless](#switching-and-wireless) | VLANs, trunking, spanning tree, EtherChannel, CDP/LLDP, wireless | 0 of 12 |
-| [Routing](#routing) | Static routes, EIGRP, OSPF, HSRP, GRE tunnels | 0 of 9 |
+| [Routing](#routing) | Static routes, EIGRP, OSPF, HSRP, GRE tunnels | 1 of 9 |
 | [IPv6](#ipv6) | IPv6 addressing and static routing | 0 of 3 |
 | [IP services](#ip-services) | NTP, DNS, DHCP, SNMP, Syslog, SSH, FTP/TFTP, NAT, QoS | 0 of 10 |
 | [Security](#security) | ACLs, port security, DHCP snooping, dynamic ARP inspection | 0 of 5 |
-| **Total** | | **7 of 48** |
+| **Total** | | **8 of 48** |
 
 ## Featured labs
 
@@ -56,10 +56,10 @@ My strongest labs so far. These are replaced as I complete more advanced work.
 
 **Click a lab's title or picture to open the full lab:** every screenshot, the commands used and an explanation of each step.
 
-| [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) | [Interface Configuration](labs/day-09-interface-configuration.md) |
+| [Configuring Static Routes](labs/day-11-configuring-static-routes.md) | [Ethernet LAN Switching](labs/day-06-ethernet-lan-switching.md) |
 |---|---|
-| <a href="labs/day-06-ethernet-lan-switching.md"><img src="labs/day-06-ethernet-lan-switching.png" alt="Two-switch LAN topology" width="400"></a> | <a href="labs/day-09-interface-configuration.md"><img src="labs/day-09-interface-configuration.png" alt="Router and two switches on 172.16.0.0/16" width="400"></a> |
-| Traced ARP and ping frame by frame across two switches in simulation mode, then read and cleared the MAC address tables to map every PC to its switch port. | Set speed and duplex on the links between network devices, labelled every port and shut down every unused one, then checked it all with `show interfaces status`. |
+| <a href="labs/day-11-configuring-static-routes.md"><img src="labs/day-11-configuring-static-routes.png" alt="Three routers joining two LANs" width="400"></a> | <a href="labs/day-06-ethernet-lan-switching.md"><img src="labs/day-06-ethernet-lan-switching.png" alt="Two-switch LAN topology" width="400"></a> |
+| Built a three-router network from scratch and configured static routes in both directions, so the two LANs could reach each other (0% loss, TTL=125 across three hops). | Traced ARP and ping frame by frame across two switches in simulation mode, then read and cleared the MAC address tables to map every PC to its switch port. |
 
 ## All labs
 
@@ -100,7 +100,7 @@ My strongest labs so far. These are replaced as I complete more advanced work.
 
 | Day | Lab | Status |
 |---|---|---|
-| 11 | Configuring Static Routes | Planned |
+| 11 | [Configuring Static Routes](labs/day-11-configuring-static-routes.md) | ✅ Done |
 | 11 | Troubleshooting Static Routes | Planned |
 | 24 | Floating Static Routes | Planned |
 | 25 | EIGRP Configuration | Planned |
